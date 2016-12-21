@@ -28,6 +28,7 @@ class TestClass1(MasterClass.MasterClass):
         tree = ET.fromstring(strrep)
         print (len(tree.getchildren()))
         print (tree[1].text)
+        print (tree[2].text)
         #root = tree.getroot() 
         #print (root[0][1].text)
         #jsondata = json.loads(response)
