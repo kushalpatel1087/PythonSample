@@ -29,6 +29,7 @@ class TestClass1(MasterClass.MasterClass):
         print (len(tree.getchildren()))
         print (tree[1].text)
         print (tree[2].text)
+        print (tree[3].text)
         #root = tree.getroot() 
         #print (root[0][1].text)
         #jsondata = json.loads(response)
